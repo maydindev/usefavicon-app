@@ -1,6 +1,8 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*/
 
 :root {
   --background: #ffffff;
@@ -19,3 +21,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+section {
+  text-align: center;
+}
+
+button {
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+  max-width: 50ch;
+  color: color-mix(in srgb, coral 50%, beige);
+  margin: 10px auto;
+}
+
+.link.active {
+  opacity: 1;
+}
+
